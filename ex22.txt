@@ -1,0 +1,32 @@
+LIst of terms from excerise 1-21
+print ""		actually prints what ever is in quotes
+#		Does not print whatever is after
++-%/<>   Math symbols run actual math
+variables use the = sign  ex axample.    cars = 100.    Print "there are" cars, "cars avaiable"
+no spaces can be used in cariable name  ex  variable_name  = 25     Print "there are" variable_name "ballons"
+%d, %s      these are formatters,  they tell python to take the variables on the right and put in to replace the %s with it's value    r  displays "raw" data and is good for debuggin
+formatter  used to format variables into certain sequences
+\n 			new line, it puts whatever comes after on a new line
+\ 		escape   - whatever comes after is excluded from being considered a command.  like \" doesnt get 
+raw_input 		this takes in input from the user and  uses it in whate ver is the next command
+import 		a way to add features
+argv 		 argument variable  it holds the arguments you pass to your script   = argv   upacks argv basically is says " take whatever is in argv and assign it to these cariables on the left in order"
+sys 	the location of where the argv module is   EX. from sys import argv  (which use argv module found in sys)
+open(filename)    if I type print text.read()   and have already stated txt = open(filename)  then the text.read command will be instructions to open the filename associated with 'filename'
+Commands to remember
+close  - closes the file, also saves the file
+read  - reads the contents of the file, you can assign the result to a variable
+readline - reads just one line of a text file
+truncate  - empties the file, watch out if you care about the file
+write(stuff) -  Writes stuff to the file
+target.write  	this wirtes what follows into the filename that was established earlier by using target = open(filenam, 'w')  the 'w' is write mode   read mode is default
+os.path		the place we import a module from such as   from os.path import exists
+exists		a module, just like argv is a module  but this one shows/returns  True if a file exists, based on its name in a string as an argument.  It returns false if not
+len() 		gets the length of the string that you pass to it and returns that as a number, each character is a byte
+def 	define   this is for functions  They name pieces of code the way variables name strings and numbers	They take arguments the way your scripts take argv.  Using #1 and #2 they let you make your own "mini scripts" or "tiny commands"
+*arg 	a lot like argv but has to be inside () to work  Ex. (*argv):
+seek()  an operation that moves the pointer to some other part of the file to begin read or writing from there
+return 		used to set variables to be a value from a function.
+
+
+
